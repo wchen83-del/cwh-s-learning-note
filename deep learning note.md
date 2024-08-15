@@ -59,7 +59,7 @@ then, we define the loss function and use **Gradient Descent** to find the lowes
 
 
 
-### 1.3.2 more features
+#### 1.3.2 more features
 
 (1) firstly, we make a basic direct proportional function with more features like ![](https://latex.codecogs.com/svg.latex?\color{white}y=b+$\sum_jw_jx_j$).
 
