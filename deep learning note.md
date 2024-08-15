@@ -32,7 +32,7 @@
 
 - the key to predict the trend of  the problems we researched is making a line that consist of many known lines ,and now we use basic **Sigmoid** line to simulate the trend of problems.
 
-	![](https://latex.codecogs.com/svg.latex?sigmoid:y=c\frac{1}{1+e^-(b+wx)})
+	![](https://latex.codecogs.com/svg.latex?\color{white}sigmoid:y=c\frac{1}{1+e^-(b+wx)})
 	
 
 - from some perspectives,maybe all the trips come from this function,and relu function.
@@ -43,17 +43,17 @@ for a example ,we wanna predict the relationsip between  the square  and the hou
 
 So,as mentioned above, we use many many sigmoid function to simulate the line.
 
-![WechatIMG125](/Users/chenweihangdexxx/Desktop/git learning/picture/1week/WechatIMG125.jpg)
+![WechatIMG125](/picture/1week/WechatIMG125.jpg)
 
 in 1 feature rela,we find  the real line = sum of a set of sigmoid +constant.
 
-​           						          $$ y=b+ \sum_{i} sigmoid(b_i+w_ix_1)$$
+​               ![](https://latex.codecogs.com/svg.latex?\color{white}y=b+\sum_{i}sigmoid(b_i+w_ix_1)})
 
 - i is a hyperparameter up to yourself.
 
 the picture followed can describe the process:
 
-![WechatIMG126](/Users/chenweihangdexxx/Desktop/git learning/picture/1week/WechatIMG126.jpg)
+![WechatIMG126](/picture/1week/WechatIMG126.jpg)
 
 then, we define the loss function and use **Gradient Descent** to find the lowest $ w^* , b^*$,and it represents the best fitted result predicting the trend.
 
@@ -65,7 +65,7 @@ then, we define the loss function and use **Gradient Descent** to find the lowes
 
 | 1 feature | more features        |
 | --------- | -------------------- |
-| y=b+wx    | y=b+$\sum_j w_j x_j$ |
+| y=b+wx    | ![](https://latex.codecogs.com/svg.latex?\color{white}y=b+$\sum_jw_jx_j) |
 
 for each sigmoid,we input every reslut of b+$\sum_j w_j x_j$,we define this result as r.
 
@@ -73,11 +73,11 @@ also,we input each sigmoid function every r.
 
 the equation is here:
 
-​                                $$ y=b+\sum_{i}c_i sigmoid(b_j+\sum_{j}w_{ij}x_j)$$
+​                                ![](https://latex.codecogs.com/svg.latex?\color{white}y=b+\sum_{i}c_isigmoid(b_j+\sum_{j}w_{ij}x_j))
 
 we can describe this equation as picture as followed:
 
-![WechatIMG127](/Users/chenweihangdexxx/Desktop/git learning/picture/1week/WechatIMG127.jpg)
+![WechatIMG127](/picture/1week/WechatIMG127.jpg)
 
 We can easily descibe this formula:
 
