@@ -18,7 +18,7 @@
 
 - create a model ,such as y=b+wx.
 
-- define **Loss**(**L($\theta$)**) from training data (**Loss**：$|y-\hat{y}|$,$(y-\hat{y})^2$,cross-entropy......）.
+- define **Loss**(**L($\theta$)**) from training data (**Loss**：![](https://latex.codecogs.com/svg.latex?\color{white}|y-\hat{y}|,(y-\hat{y})^2),cross-entropy......）.
 
 - optimization : find the lowest best $w^*$ and $b^*$ = $\arg\min_{w,b}L$.
 
@@ -47,7 +47,7 @@ So,as mentioned above, we use many many sigmoid function to simulate the line.
 
 in 1 feature rela,we find  the real line = sum of a set of sigmoid +constant.
 
-​               ![](https://latex.codecogs.com/svg.latex?\color{white}y=b+\sum_{i}sigmoid(b_i+w_ix_1)})
+​               ![](https://latex.codecogs.com/svg.latex?\color{white}y=b+\sum_{i}sigmoid(b_i+w_ix_1))
 
 - i is a hyperparameter up to yourself.
 
