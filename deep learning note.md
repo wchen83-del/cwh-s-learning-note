@@ -32,7 +32,8 @@
 
 - the key to predict the trend of  the problems we researched is making a line that consist of many known lines ,and now we use basic **Sigmoid** line to simulate the trend of problems.
 
-##                                      			$$ sigmoid: y=c\frac{1}{1+e^-(b+wx)} $$
+##                                      		![$$ sigmoid: y=c\frac{1}{1+e^-(b+wx)} $$](https://latex.codecogs.com/svg.latex?E=mc^2)
+	
 
 - from some perspectives,maybe all the trips come from this function,and relu function.
 
