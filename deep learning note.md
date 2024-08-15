@@ -20,7 +20,7 @@
 
 - define **Loss**(**L($\theta$)**) from training data (**Loss**：![](https://latex.codecogs.com/svg.latex?\color{white}|y-\hat{y}|,(y-\hat{y})^2),cross-entropy......）.
 
-- optimization : find the lowest best $w^*$ and $b^*$ = $\arg\min_{w,b}L$.
+- optimization : find the lowest best ![](https://latex.codecogs.com/svg.latex?\color{white}w^*,b^*=\arg\min_{w,b}L).
 
    (define your own hyperparameters and use **Gradient Descent**,a process of training)
 
@@ -55,13 +55,13 @@ the picture followed can describe the process:
 
 ![WechatIMG126](/picture/1week/WechatIMG126.jpg)
 
-then, we define the loss function and use **Gradient Descent** to find the lowest $ w^* , b^*$,and it represents the best fitted result predicting the trend.
+then, we define the loss function and use **Gradient Descent** to find the lowest ![](https://latex.codecogs.com/svg.latex?\color{white}w^*,b^*),and it represents the best fitted result predicting the trend.
 
 
 
 ### 1.3.2 more features
 
-(1) firstly, we make a basic direct proportional function with more features like y=b+$\sum_j w_j x_j$.
+(1) firstly, we make a basic direct proportional function with more features like ![](https://latex.codecogs.com/svg.latex?\color{white}y=b+$\sum_jw_jx_j$).
 
 | 1 feature | more features        |
 | --------- | -------------------- |
